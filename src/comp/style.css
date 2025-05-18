@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 30px 30px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.heading{
+    font-size:100px;
+    font-weight: 800;
+    display: flex;
+    align-content: center;
+    align-items: end;
+    padding-top: 10px;
+    color: black;
+    text-shadow: 0 0 8px yellow, 0 0 16px yellow, 0 0 24px #ff6f10;
+}
+
+.header ul{
+    display: flex;
+    justify-content: center;
+}
+
+.loginedit{
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+
+.header ul li{
+    margin-left: 20px;
+    list-style: none;
+    font-size: x-large;
+    font-weight: 600 ;
+    margin-top: 30px;
+}
+
+.header .logo h5{
+    font-size: large;
+}
+
+.header ul li .Link{
+    text-decoration: none;
+    color: #0cc00c;
+}
+
+.loggg{
+    float: left;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.container .box {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 20px;
+    background: #f5f5f5;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3%;
+}
+
+.chobi{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 3%;
+    margin-top: 10px;
+}
+
+.container .box .contant {
+    align-items: center;
+    max-width: 100%;
+}
+
+.container .box .contant .detail .info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.container .box .contant .detail .info h3{
+    color:#a52a2a;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.container .box .contant .detail button {
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: black;
+    color: rgb(250, 95, 5);
+    border-radius: 7%;
+}
+
+.detail_container{
+    position:absolute;
+    z-index: 1;
+    align-items: 1;
+    width: 600px;
+    background: #f5f5f9;
+    margin-left: 27%;
+    margin-top: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #e8e8e8;
+    padding: 20px 10px;
+    border-radius: 3.5%;
+}
+
+.detail_container .detail_contant{
+    max-width: 100%;
+}
+
+.detail_container .detail_contant .detail_info{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.detail_container .detail_contant .detail_info .img_box img{
+    width: 350px;
+    height: 250px;
+}
+
+.detail_container .detail_contant .detail_info .product_detail {
+    margin-left: 30px;
+}
+
+.detail_container .detail_contant .detail_info .product_detail h2{
+    color: #fe4a55;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.detail_container .detail_contant .detail_info .product_detail h3{
+    margin-top: 10px;
+    color: blue;
+}
+
+.detail_container .detail_contant .detail_info .product_detail p{
+    margin-top: 10px;
+    margin-right: 30px;
+    color: black;
+}
+
+.detail_container .detail_contant .detail_info .product_detail button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: none;
+    background: #fe4a55;
+    color: #000;
+    cursor: pointer;
+}
+
+.account1{
+    width: 150px;
+    height: 35px;
+    border-radius: 10%;
+    font-weight:800;
+    background-color: #000;
+    color: #f5f5f5;
+    cursor: pointer;
+    box-shadow: #e8e8e8;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.home2{
+    position: absolute;
+    gap: 30px;
+    margin-left: 400px;
+    margin-bottom: 10px;
+    width: 100%;         
+    height: 45px;
+    background-color:white;
+    opacity: 0.7;
+    margin-left: 0%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.homeedit{
+    width:100%;
+    height:100%;
+}
+
+
+.homeedit2{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+
+.account-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+}
+  
+  h2 {
+    margin-bottom: 30px;
+}
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+  
+  .account-button {
+    background-color: #ff6f10;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.rara{
+    text-decoration: none;
+}
+  
+  .account-button:hover {
+    background-color: #ce0000;
+}
+  
+.linklog{
+    margin-left: 230px;
+    padding-top: 30px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.form-login-box {
+  width: 320px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: forestgreen;
+}
+
+.form-error {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+
+  .login-box {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .login-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-field {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .login-input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    padding: 8px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
