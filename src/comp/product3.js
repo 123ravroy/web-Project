@@ -3,8 +3,9 @@ import ProductData3 from './productData3'
 import { IoIosCloseCircle } from "react-icons/io";
 import './style.css'
 import Nav from './nav';
+import Footer from './footer'
 
-const product3 = () => {
+const Product3 = () => {
     
     const [detail,setDetail] = useState([]);
     const [close, setClose] = useState(false)
@@ -16,6 +17,8 @@ const product3 = () => {
   return (
     <>
     <Nav />
+    <br/>
+    <h1 className='productname'>Kids's Clothing</h1>
     {
         close ?
     <div className='detail_container'>
@@ -69,8 +72,9 @@ const product3 = () => {
             })
         }
     </div>
+    <Footer />
     </>
   )
 }
 
-export default product3
+export default Product3
